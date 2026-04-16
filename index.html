@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Otel ve işletmeler için profesyonel web sitesi ve yazılım çözümleri">
+<meta name="keywords" content="otel web sitesi, rezervasyon sistemi, turizm yazılım, web tasarım">
+
 <title>Enes Digital Solutions</title>
 
 <style>
@@ -31,15 +35,22 @@ nav a {
 }
 
 .hero h1 {
-    font-size: 40px;
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .btn {
     background: #38bdf8;
-    padding: 10px 20px;
+    padding: 12px 25px;
     color: black;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .section {
@@ -54,12 +65,44 @@ nav a {
     border-radius: 10px;
     display: inline-block;
     width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 footer {
     background: #020617;
     text-align: center;
     padding: 20px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+input, textarea {
+    width: 260px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #38bdf8;
+    cursor: pointer;
+    border-radius: 5px;
 }
 </style>
 </head>
@@ -76,36 +119,43 @@ footer {
 </header>
 
 <section class="hero">
-    <h1>Turizm ve Şirketler İçin Profesyonel Web & Yazılım Çözümleri</h1>
-    <p>Oteller, firmalar ve işletmeler için modern web siteleri ve özel yazılımlar geliştiriyoruz.</p>
-    <a href="#iletisim" class="btn">Bizimle İletişime Geç</a>
-</section><section class="section">
+    <h1>Turizm ve İşletmeler İçin Modern Web & Yazılım Çözümleri</h1>
+    <p>Daha fazla müşteri, daha fazla rezervasyon ve profesyonel dijital görünüm sağlıyoruz.</p>
+    <a href="#iletisim" class="btn">Ücretsiz Teklif Al</a>
+</section>
+
+<section class="section">
+    <h2>Neden Biz?</h2>
+    <p>Eski ve yavaş web siteleri müşteri kaybettirir. Biz hızlı, modern ve satış odaklı sistemler kurarız.</p>
+</section>
+
+<section class="section">
     <h2>Referanslarımız</h2>
-    <p>Turizm ve işletme sektöründe birçok firma ile çalıştık.</p>
     <div class="card">Antalya Hotel Project</div>
     <div class="card">Travel Agency System</div>
     <div class="card">Restaurant Website</div>
-</section><section class="section">
-<h2>Paketler</h2>
+</section>
 
-<div class="card">
-<h3>Basic</h3>
-<p>$5.000</p>
-<p>Kurumsal web sitesi</p>
-</div>
+<section class="section">
+    <h2>Paketler</h2>
 
-<div class="card">
-<h3>Pro</h3>
-<p>$10.000</p>
-<p>Web + rezervasyon sistemi</p>
-</div>
+    <div class="card">
+        <h3>Basic</h3>
+        <p>₺5.000</p>
+        <p>Kurumsal web sitesi</p>
+    </div>
 
-<div class="card">
-<h3>Premium</h3>
-<p>$20.000+</p>
-<p>Özel yazılım + otomasyon</p>
-</div>
+    <div class="card">
+        <h3>Pro</h3>
+        <p>₺10.000</p>
+        <p>Web + rezervasyon sistemi</p>
+    </div>
 
+    <div class="card">
+        <h3>Premium</h3>
+        <p>₺20.000+</p>
+        <p>Özel yazılım + otomasyon</p>
+    </div>
 </section>
 
 <section id="hizmet" class="section">
@@ -113,89 +163,67 @@ footer {
 
     <div class="card">
         <h3>Web Site Tasarımı</h3>
-        <p>Oteller ve işletmeler için modern ve hızlı web siteleri.</p>
+        <p>Modern ve hızlı web siteleri</p>
     </div>
 
     <div class="card">
         <h3>Rezervasyon Sistemleri</h3>
-        <p>Online rezervasyon ve müşteri yönetim sistemleri.</p>
+        <p>Online rezervasyon altyapısı</p>
     </div>
 
     <div class="card">
         <h3>Otomasyon Yazılımları</h3>
-        <p>İş süreçlerinizi hızlandıran özel yazılımlar.</p>
+        <p>İş süreçlerini hızlandıran çözümler</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Projelerimiz</h2>
+
+    <div class="card">
+        <h3>Hotel Website</h3>
+        <p>Modern rezervasyon sistemi</p>
     </div>
 
+    <div class="card">
+        <h3>Travel Agency</h3>
+        <p>Online booking platformu</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Müşteri Yorumları</h2>
+
+    <div class="card">
+        <p>"Çok profesyonel ve hızlı teslim!"</p>
+        <b>- Antalya Hotel</b>
+    </div>
+
+    <div class="card">
+        <p>"Rezervasyonlarımız arttı."</p>
+        <b>- Travel Agency</b>
+    </div>
 </section>
 
 <section id="iletisim" class="section">
     <h2>İletişim</h2>
+
     <p>Email: enesbozdagmuhammet@gmail.com</p>
-    <p>Telefon: +90 0552 339 56 01</p>
-<a href="https://wa.me/905523395601" class="whatsapp" target="_blank">💬</a>
-</body>
-</html>
+    <p>Telefon: +90 552 339 56 01</p>
+
+    <form action="https://formspree.io/f/mayvlkga" method="POST">
+        <input type="text" name="name" placeholder="Adınız" required><br><br>
+        <input type="email" name="email" placeholder="Email" required><br><br>
+        <textarea name="message" placeholder="Mesajınız" required></textarea><br><br>
+        <button type="submit">Gönder</button>
+    </form>
+</section>
 
 <footer>
     <p>© 2026 Enes Digital Solutions</p>
 </footer>
 
-<style><style>
-.whatsapp position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
-    color: white;
-    font-size: 30px;
-    padding: 15px;
-    border-radius: 50%;
-    text-decoration: none;{
-...
-}
-</style>
+<a href="https://wa.me/905523395601" class="whatsapp" target="_blank">💬</a>
 
-</style>
-.card {
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-    / /<html>
-<form action="https://formspree.io/f/mayvlkga" method="POST">
-    <input type="text" name="name" placeholder="Adınız" required><br><br>
-    <input type="email" name="email" placeholder="Email" required><br><br>
-    <textarea name="message" placeholder="Mesajınız" required></textarea><br><br>
-    <button type="submit">Gönder</button>
-</form>
-<section class="section">
-<h2>Projelerimiz</h2>
-
-<div class="card">
-<h3>Hotel Website</h3>
-<p>Modern rezervasyon sistemi</p>
-</div>
-
-<div class="card">
-<h3>Travel Agency</h3>
-<p>Online booking sistemi</p>
-</div>
-
-</section>
-<section class="section">
-<h2>Müşteri Yorumları</h2>
-
-<div class="card">
-<p>"Çok profesyonel bir çalışma!"</p>
-<b>- Antalya Hotel</b>
-</div>
-
-<div class="card">
-<p>"Rezervasyon sistemimiz mükemmel oldu."</p>
-<b>- Travel Agency</b>
-</div>
-
-</section>
-<meta name="description" content="Otel ve işletmeler için web sitesi ve yazılım çözümleri">
-<meta name="keywords" content="otel web sitesi, rezervasyon sistemi, turizm yazılım">
+</body>
+</html>
